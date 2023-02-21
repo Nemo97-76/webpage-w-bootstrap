@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+h2,h5,p,span{
+    cursor:default;
+}
+nav {
+    width: 100%;
+    padding-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 3;
+    position: fixed !important;
+    top: 0;
+}
+
+.carousel{
+    margin-top: 80px;
+}
+.form-floating .form-control{
+ border:1px solid #bd1588;
+}
+
+
+.bttn{
+    background-color: #bc519b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+text-decoration: none;
+margin-top: 60px;
+}
+.bttn:hover{
+    background-color: #bd1588;
+    color: white;
+}
+.carousel-caption{
+    background-color: rgba(255,255,255,0.2);
+    margin: auto;
+    border-radius: 5px;
+}
+
+.carousel-caption h5{
+    margin-bottom: 20px;
+color: black;
+}
+
+
+.sections {
+    position: absolute;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 45px;
+    top: 20px;
+    margin-left: 275px;
+    margin-top: 2px;
+}
+
+.sections .main-list li {
+    list-style: none;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: inline;
+}
+
+
+.carousel-item {
+    height: 88.5vh;
+    transition: 7s;
+    position: relative;
+}
+form button{
+    color: white;
+    background-color: #bc519b !important;
+    border: none !important;
+    margin-left: 20px !important;
+    padding: 0px 30px !important;
+}
+
+form button:hover{
+    background-color: #bd1588 !important;
+}
+
+.dropdown-toggle{
+    text-decoration: none;
+    color: black;
+}
+.dropdown-toggle:hover{
+    color: black;
+}
+
+.welcome{
+    width: 100%;
+    height: 200px;
+    background-color: #bc519b;
+}
+.CapTion h2{
+    color: black;
+}
+.CapTion{
+    margin-left: 50px;
+    padding-top: 50px;
+} .CapTion button{
+    display: block;
+    margin-top: 10px;
+    width: 100px;
+    margin-left: 35px;
+}
+.options {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #3e072d;
+    color: white;
+}
+.options h2{
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+.creat h2{
+    background-color: #3e072d;
+    text-align: center;
+    color: white;
+    padding: 30px 0px 10px;
+    font-size: 35px;
+}
+.creat-content{
+    background-color: #bd1588;
+margin-top: -10px;
+padding-bottom:40px;
+padding-top: 20px;
+position: relative;
+
+}
+.creat-content span{
+    margin-left:50px; 
+    font-size: 25px;
+  color: black;
+}
+
+.creat-content button{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.message{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 125px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+.creat-content h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: monospace;
+}
+.blank{
+    position: relative;
+    background-image: url(../images/F98FUMOIJSX3E43.webp);
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blank::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.blaank2{
+    position: relative;
+    background-image: url(../images/thread-5248183_960_720.jpg);
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-color: #bc519b !important;
+}
+.blaank2::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+body >h2{
+    background-color: #3e072d;
+    text-align: center;
+    color: white;
+    padding: 30px 0px 10px;
+    font-size: 35px;
+}
+.card-body a{
+    background-color: #bd1588 !important;
+    border: none !important;
+}
+
+.card{ 
+    position: relative !important;
+}
+
+
+
+.EenDD a:hover{
+    color:#f4a9dc !important;
+}
+.icon1{
+    background-image:url(../images/img_1676906119558.png) ;
+ 
+}
+.icon2{
+    background-image: url(../images/img_1676928149991.png);
+}
+
+.icon3{
+    background-image: url(../images/img_1676928400386.png);
+}
+.card-icon{
+    margin: auto;
+    background-position: bottom;
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    transition: 0.3s;
+}
+.EenDD:hover .card-icon{
+    background-position: top;
+}
