@@ -231,6 +231,7 @@ body>h2 {
 
 .card {
     position: relative !important;
+    border: #3e072d solid 1px !important;
 }
 
 
@@ -263,4 +264,8 @@ body>h2 {
 
 .EenDD:hover .card-icon {
     background-position: top;
+}
+
+.card-img-top {
+    border-radius: 5px !important;
 }
